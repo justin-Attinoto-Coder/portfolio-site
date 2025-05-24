@@ -4,9 +4,10 @@ import { RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, ProjectsComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot([]),
